@@ -155,8 +155,8 @@ set \
   -o nounset \
   -o pipefail \
   -o errexit
-export HTTPS_PROXY=squid.corp.redhat.com:3128
-export HTTP_PROXY=squid.corp.redhat.com:3128
+export HTTPS_PROXY=<>
+export HTTP_PROXY=<>
 
 if ! command -v curl &> /dev/null
 then
